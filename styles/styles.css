@@ -48,12 +48,11 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    . . .
 }
 
 p {
-    padding;
-    0;
+    padding:
+        0;
 }
 
 footer {
