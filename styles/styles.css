@@ -1,23 +1,32 @@
+:root {
+    --back-color: darkblue;
+    --dark-color: solid black;
+    --padding-small: 2px;
+    --padding-medium: 10px;
+    --padding-large: 20px;
+
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--back-color);
+    padding: var(--padding-medium);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding-large);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--back-color);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: 1px var(--dark-color);
+    padding: var(--padding-small);
     box-shadow: 0 0 30px gray;
 }
 
@@ -48,8 +57,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: 1px var(--dark-color);
+    padding: var(--padding-small);
     box-shadow: 0 0 30px gray;
 }
 
