@@ -67,8 +67,23 @@ article {
     padding: 8px;
 }
 
+header nav {
+    background-color: var(--secondary-color);
+    /* warm sand */
+}
+
+footer {
+    background-color: var(--accent2-color);
+    /* light golden yellow */
+}
+
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 20px;
+    height: auto;
 }
 
 /* ===========================
@@ -76,7 +91,7 @@ article {
    =========================== */
 .hero {
     position: relative;
-    /* allows absolute positioning of children */
+
 }
 
 .hero img {
