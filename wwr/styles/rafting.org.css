@@ -44,15 +44,6 @@ header {
     align-items: center;
     padding: 10px;
     background-color: #004466;
-
-}
-
-/* ===========================
-   remove underline
-   =========================== */
-header nav a {
-    text-decoration: none !important;
-    font-weight: bold;
 }
 
 /* ===========================
@@ -77,13 +68,8 @@ img {
 header ul {
     list-style: none;
     /* removes bullets */
-    text-decoration: none;
-    background-color: var(--back-color);
-    padding: var(--padding-medium);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+    padding: 0;
+    text-align: left;
 }
 
 nav,
@@ -114,26 +100,6 @@ footer {
 }
 
 /* ===========================
-   /footer added 7/23/2026
-   =========================== */
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--accent2-color);
-    padding: 10px 20px;
-}
-
-footer .socialmedia {
-    display: flex;
-    gap: 15px;
-}
-
-footer .socialmedia img {
-    width: 30px;
-}
-
-/* ===========================
    Hero Section
    =========================== */
 .hero {
@@ -147,12 +113,6 @@ footer .socialmedia img {
     height: auto;
 }
 
-.history {
-    padding: 20px;
-    background-color: #f0f0f0;
-}
-
-/
 /* ===========================
    Hero Heading Overlay
    =========================== */
@@ -183,39 +143,4 @@ footer .socialmedia img {
     margin-left: 12px;
     border: 2px solid var(--primary-color);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-}
-
-.adventures {
-    display: flex;
-    /* activates Flexbox */
-    justify-content: space-around;
-    /* spreads items evenly */
-    flex-wrap: wrap;
-    /* allows wrapping if screen is small */
-    gap: 15px;
-    /* spacing between items */
-    padding: 20px;
-}
-
-.adventures figure {
-    text-align: center;
-    width: 180px;
-    /* fixed width so they line up nicely */
-}
-
-.adventures img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.grid {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
 }
