@@ -150,22 +150,43 @@ footer .socialmedia img {
 .history {
     padding: 20px;
     background-color: #f0f0f0;
+    text-align: center;
 }
 
-/
+.history-content {
+    display: flex;
+    justify-content: center;
+    /* centers horizontally */
+    gap: 20px;
+    /* space between paragraphs */
+    max-width: 800px;
+    /* keeps it contained */
+    margin: 0 auto;
+    /* centers the whole block */
+}
+
+.history-content p {
+    flex: 1;
+    /* makes both paragraphs equal width */
+}
+
 /* ===========================
    Hero Heading Overlay
    =========================== */
 .hero h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
+    /* keeps it near the top */
+    left: 50%;
+    /* push halfway across */
+    transform: translateX(-50%);
+    /* center horizontally */
+
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
-
 }
 
 .hero article {
@@ -185,37 +206,25 @@ footer .socialmedia img {
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-.adventures {
-    display: flex;
-    /* activates Flexbox */
-    justify-content: space-around;
-    /* spreads items evenly */
-    flex-wrap: wrap;
-    /* allows wrapping if screen is small */
+.adventures h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
-    /* spacing between items */
-    padding: 20px;
 }
 
 .adventures figure {
     text-align: center;
-    width: 180px;
-    /* fixed width so they line up nicely */
 }
 
 .adventures img {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.grid {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
 }
