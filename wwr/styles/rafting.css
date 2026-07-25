@@ -99,11 +99,6 @@ header nav {
     /* warm sand */
 }
 
-footer {
-    background-color: var(--accent2-color);
-    /* light golden yellow */
-}
-
 .socialmedia a {
     text-decoration: none;
 }
