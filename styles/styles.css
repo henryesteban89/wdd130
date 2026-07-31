@@ -13,7 +13,7 @@
 
 }
 
-nav {
+.team {
     background-color: var(--back-color);
     padding: var(--padding-medium);
     display: flex;
@@ -110,4 +110,28 @@ footer,
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+}
+
+.team figure {
+    width: 220px;
+    /* fixed width for each profile */
+    text-align: center;
+    /* center captions under images */
+}
+
+.team img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.team figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: var(--accent1-color);
+}
+
+.company-info {
+    text-align: center;
+    /* centers all text inside */
 }
