@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
+    <!-- Updated head section -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Learn more about Us</title>
+    <title>Contact White Water Rafting Adventures</title>
     <meta name="description"
-      content=" Experiment the emotions of white water rafting great trips with experienced guides and unforgetable adventures.">
+      content="Get in touch with White Water Rafting Adventures. Find our address, phone, email, and connect with our team for reservations, inquiries, or suggestions.">
     <meta name="author" content="Henry Esteban">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -50,28 +51,42 @@
                 <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <p>Purpose of Message:</p>
-                <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation
-                    Question</label>
-                <label><input type="radio" name="purpose" value="suggestion"> Website
-                    Suggestion</label>
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general"> General
+                        Inquiry
+                    </label>
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation
+                        Question
+                    </label>
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website
+                        Suggestion
+                    </label>
+                </fieldset>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly
-                    newsletter</label>
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to
+                    the
+                    monthly newsletter
+                </label>
 
                 <button type="submit">Send Message</button>
             </form>
         </section>
 
+
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15395.34274356547!2d-90.49588699999998!3d15.276754000000006!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sgt!4v1785459837215!5m2!1ses-419!2sgt"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </section>
 
 
         <!-- Adventure Section -->
