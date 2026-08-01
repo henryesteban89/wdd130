@@ -142,3 +142,17 @@ footer,
     border: none;
     /* replaces style="border:0;" */
 }
+
+.team {
+    text-align: center;
+    /* centers all inline text inside */
+}
+
+.team h2 {
+    display: block;
+    /* ensures it behaves like a full-width heading */
+    margin: 0 auto 20px;
+    /* auto left/right margins center block elements */
+    font-size: 2rem;
+    color: darkblue;
+}
