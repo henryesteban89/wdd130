@@ -135,3 +135,10 @@ footer,
     text-align: center;
     /* centers all text inside */
 }
+
+.map {
+    width: 600px;
+    height: 450px;
+    border: none;
+    /* replaces style="border:0;" */
+}
