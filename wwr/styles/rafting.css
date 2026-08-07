@@ -126,6 +126,7 @@ footer .socialmedia {
 
 footer .socialmedia img {
     width: 30px;
+    height: auto;
 }
 
 /* ===========================
@@ -222,4 +223,51 @@ footer .socialmedia img {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* home page */
+
+.cta {
+    text-align: center;
+    padding: var(--primary-color);
+
+}
+
+.grid-info {
+    text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+
+}
+
+/* trips page */
+
+.trip-descriptions {
+
+    text-align: center;
+}
+
+.trip-table {
+    table-layout: var(--accent2-color);
+    text-align: left;
+}
+
+/* Contact us */
+.company-info {
+    text-align: center;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+}
+
+.adventure-grid {
+    -ms-flex-align: center;
+    text-align: center;
 }
